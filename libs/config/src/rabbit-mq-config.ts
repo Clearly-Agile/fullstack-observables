@@ -5,6 +5,8 @@ export const RabbitMQConfig = {
   RoutingKeys: {
     Employees: {
       Create: 'agile-rabbit.employees.create',
+      Created: 'agile-rabbit.employees.created',
+      Delete: 'agile-rabbit.employees.delete',
     },
   },
   Queues: {

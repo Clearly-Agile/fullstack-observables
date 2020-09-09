@@ -9,9 +9,7 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  const microserviceRabbitMQ = await NestFactory.createMicroservice<
-    MicroserviceOptions
-  >(AppModule, {
+  await NestFactory.createMicroservice<MicroserviceOptions>(AppModule, {
     transport: Transport.RMQ,
     options: {
       urls: ['amqp://guest:guest@localhost:5672'],
