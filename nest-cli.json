@@ -1,0 +1,66 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/gateway/src",
+  "monorepo": true,
+  "root": "apps/gateway",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/gateway/tsconfig.app.json"
+  },
+  "projects": {
+    "gateway": {
+      "type": "application",
+      "root": "apps/gateway",
+      "entryFile": "main",
+      "sourceRoot": "apps/gateway/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/gateway/tsconfig.app.json"
+      }
+    },
+    "models": {
+      "type": "library",
+      "root": "libs/models",
+      "entryFile": "index",
+      "sourceRoot": "libs/models/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/models/tsconfig.lib.json"
+      }
+    },
+    "core": {
+      "type": "library",
+      "root": "libs/core",
+      "entryFile": "index",
+      "sourceRoot": "libs/core/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/core/tsconfig.lib.json"
+      }
+    },
+    "employees": {
+      "type": "application",
+      "root": "apps/employees",
+      "entryFile": "main",
+      "sourceRoot": "apps/employees/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/employees/tsconfig.app.json"
+      }
+    },
+    "teams": {
+      "type": "application",
+      "root": "apps/teams",
+      "entryFile": "main",
+      "sourceRoot": "apps/teams/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/teams/tsconfig.app.json"
+      }
+    },
+    "projects": {
+      "type": "application",
+      "root": "apps/projects",
+      "entryFile": "main",
+      "sourceRoot": "apps/projects/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/projects/tsconfig.app.json"
+      }
+    }
+  }
+}
