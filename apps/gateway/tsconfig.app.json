@@ -2,7 +2,33 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": false,
-    "outDir": "../../dist/apps/gateway"
+    "outDir": "../../dist/apps/gateway",
+    "paths": {
+      "@libs/config": [
+        "libs/config/src"
+      ],
+      "@libs/config/*": [
+        "libs/config/src/*"
+      ],
+      "@app/*": [
+        "apps/gateway/src/*"
+      ],
+      "@app": [
+        "apps/gateway/src"
+      ],
+      "@libs/models": [
+        "libs/models/src"
+      ],
+      "@libs/models/*": [
+        "libs/models/src/*"
+      ],
+      "@libs/core": [
+        "libs/core/src"
+      ],
+      "@libs/core/*": [
+        "libs/core/src/*"
+      ]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]

@@ -12,6 +12,12 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
+      "@libs/config": [
+        "libs/config/src"
+      ],
+      "@libs/config/*": [
+        "libs/config/src/*"
+      ],
       "@libs/models": [
         "libs/models/src"
       ],
