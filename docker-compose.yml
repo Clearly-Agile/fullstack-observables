@@ -10,12 +10,3 @@ services:
     image: mongo
     ports:
       - '27017:27017'
-  proxy:
-    image: traefik
-    ports:
-      - '82:80'
-      - '8080:8080'
-    volumes:
-      - '/var/run/docker.sock:/var/run/docker.sock'
-      - './config/traefik.toml:/etc/traefik/traefik.toml'
-    network_mode: host
