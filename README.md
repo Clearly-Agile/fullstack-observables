@@ -1,7 +1,7 @@
-Getting Started
+## Getting Started
 
 
-1. You have the repo, so skip Step 1.
+1. Clone the repository from github, if you have the repo, go to step 2.
 
 2. Install Docker Desktop if you don't have it https://www.docker.com/products/docker-desktop (Skip if you have)
    **See the note below if you don't want to use Docker
@@ -13,5 +13,4 @@ Getting Started
 5. Run `npm install` at the root of the project, you're done!
 
 
-
-**You will have to install RabbitMQ & MongoDB manually by downloading their install packages.
+**You will have to install RabbitMQ & MongoDB manually by downloading their install packages. 
