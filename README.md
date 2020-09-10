@@ -1,6 +1,6 @@
 Hey all thanks to everyone who joined the Tampa FullStack Meetup! You can find the Zoom recording of the session here: 
 
-[Tampa FullStack Meetup 9.9.2020 :: Zoom Recording](https://us02web.zoom.us/recording/detail?meeting_id=nKvBvPOvRuOXMWLTC8ghcA==)
+[Tampa FullStack Meetup 9.9.2020 :: Zoom Recording](https://us02web.zoom.us/rec/share/Y-row4tLg_9ZzK68kM496l-UgGmc1BR7Zdg3VF0T2i2QLxAi6K0Mauoo5cl8CZQR.nsLFjPSNBVN59iiM)
 
 
 Questions? Comments? Technical Help?   zev@clearlyagileinc.com
